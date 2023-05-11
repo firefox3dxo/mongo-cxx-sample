@@ -1,0 +1,56 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+# ros/.catkin_workspace
+ros/build/
+ros/devel/
+.vscode/
+**/build
+**/udp-websocket
+**/docker-build
+**/install
+# docker镜像
+vrcs-mec-v*.zip
+**/Dockerfile.bk
+**/tmp
+
+
+**/3rd
+**/__pycache__/**
+**/log/
+**/data/
+**/*.pth
+**/test*.py
+#**/*.onnx
+**/logs/
+**/.vs
+**/build
+**/CMakeSettings.json
