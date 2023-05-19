@@ -6,7 +6,7 @@
    
     3. cd mongo-c-driver-1.23.4    
    
-    4. cmake -DENABLE_AUTOMATIC_INIT_AND_CLEANUP=OFF -DCMAKE_BUILD_TYPE=Release  "-DCMAKE_INSTALL_PREFIX=C:\mongo-c-driver" "-DCMAKE_PREFIX_PATH=C:\mongo-c-driver"  -B cmake-build
+    4. cmake -DENABLE_AUTOMATIC_INIT_AND_CLEANUP=OFF -DCMAKE_BUILD_TYPE=Release  "-DCMAKE_INSTALL_PREFIX=C:\mongo-c-driver" "-DCMAKE_PREFIX_PATH=C:\mongo-c-driver" -DBUILD_SHARED_AND_STATIC_LIBS=ON -DENABLE_TESTS=OFF  -B cmake-build
    
     5. cd cmake-build
    
